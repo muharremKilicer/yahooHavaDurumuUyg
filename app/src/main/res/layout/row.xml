@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- imageview imizin ismini bu şekilde değiştirdik!-->
+    <!--res-values-color.xml den renk ekleyebiliriz.!-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Ürün Başlığı"
+        android:id="@+id/txtBaslik"
+        android:layout_marginLeft="10dp"
+        android:textColor="#00022d"
+        android:paddingTop="15dp"
+        android:textSize="21dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+</LinearLayout>
